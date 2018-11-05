@@ -8,7 +8,7 @@ class Blib < Formula
     system 'vim +\'%s#\$( cd "\${BASH_SOURCE\[0\]%\/\*}" && pwd )#' + prefix + '#g\' +w! +q blib.oo.sh'
     system "mv", "blib.oo.sh", "blib"
     bin.install "blib"
-    prefix.install Dir["deps"], "Makefile" Dir["tests"]
+    prefix.install Dir["deps"], "Makefile", Dir["tests"]
   end
 
   test do
