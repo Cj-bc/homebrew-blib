@@ -13,3 +13,4 @@ class Blib < Formula
 
   test do
     system "make test"
+  end
