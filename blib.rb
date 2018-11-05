@@ -1,3 +1,5 @@
+require "formula"
+
 class Blib < Formula
   homepage "https://github.com/Cj-bc/blib"
   version '0.1.0'
