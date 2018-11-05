@@ -4,7 +4,7 @@ class Blib < Formula
   homepage "https://github.com/Cj-bc/blib"
   version '0.1.2'
   url "https://github.com/Cj-bc/blib/archive/v" + version + ".tar.gz"
-  sha256 "e46aaa0c50a364d217fec6ae957a881cef8d677a2c570ae3067fa9d356e3d64e"
+  sha256 "7355372545e92946e9a5285bbd50620b19bcc9f8f135e6ba2196932019228871"
 
   def install
     system 'vim +\'%s#\$( cd "\${BASH_SOURCE\[0\]%\/\*}" && pwd )#' + prefix + '#g\' +w! +q blib.oo.sh'
