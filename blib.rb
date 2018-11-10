@@ -2,9 +2,9 @@ require "formula"
 
 class Blib < Formula
   homepage "https://github.com/Cj-bc/blib"
-  version '0.2.2'
+  version '0.2.3'
   url "https://github.com/Cj-bc/blib/archive/v" + version + ".tar.gz"
-  sha256 "6d0f7a9f479a6d250c9e9c1ba70f864eda1cc8e274eab70152bc6a1dc167e690"
+  sha256 "cc08825f41e0b85fddaf56288f1fbe29723a05793b0535f896cfef1031fc9bbc"
 
   def install
     system "make root=#{prefix} FORCE_INSTALL=true install"
